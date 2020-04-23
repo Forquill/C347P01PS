@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 RadioButton rbAttempt = (RadioButton) findViewById(selectedAttempt);
 
                 String[] info = {rbMaterial.getText().toString(),rbArrive.getText().toString(),rbAttempt.getText().toString()
-                , etReflection.getText().toString()};
+                        , etReflection.getText().toString()};
 
                 Intent i = new Intent(MainActivity.this,Main2Activity.class);
                 i.putExtra("info", info);
